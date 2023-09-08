@@ -1,0 +1,132 @@
+
+hr{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 30%;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #808080;
+    border-width: 5px;
+    padding: 1%;
+    
+    
+}
+
+p{
+    
+    
+    color:rgb(90, 88, 88);
+    
+   
+   
+}
+/* Navigation bar */
+
+#navigationbar{
+    
+    font-family: 'Quintessential', cursive;
+    
+    font-size: 1.25rem;
+
+}
+
+/* Newarrival */
+.newarrival-image{
+    padding: 1%;
+    width: 100%;
+    height: 50%;
+
+}
+
+.newarrival-image:hover{
+    opacity: 0.9;
+}
+
+/* Hoodies */
+
+.d-block{
+    width: 400px;
+    height: 450px;
+    
+}
+
+.image p{
+    width: 400px;
+    margin-top: 10px;
+
+}
+.image:hover{
+    
+    opacity: 0.75;
+    
+}
+.image{
+   
+   padding: 5% 7%;
+  
+}
+
+h1{
+    text-align: center;
+    color:#000;
+    font-family:'Sacremento',cursive;
+    
+}
+
+.Aboutus{
+    
+    display: inline-block;
+    background-color: #f7f4f0;
+    padding: 3% 15%;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+    margin: 2px 8px;
+
+    
+}
+.contactus{
+    padding: 2%;
+    background-color: black;
+    color: white;
+}
+.icons:hover{
+    opacity: 0.5;
+    
+    
+}
+h6{
+    padding: 2%;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #ecf2f5;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f5f8fa;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  a{
+      text-decoration: none;
+      color: inherit;
+  }
+  
